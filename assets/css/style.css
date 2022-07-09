@@ -139,7 +139,7 @@ button:hover{
 
 }
 /* setion-contaact-us*/
-.contact{
+#contact{
     background-color: #101010;
     height: 100%;
     width: 100%;
@@ -216,5 +216,13 @@ button:hover{
 .social-links ul{
     padding: 10px;
     display:flex;
+    
+}
+footer{
+    background: #111;
+    height:auto;
+    width:100vw;
+    padding-top: 40px;
+    color:#fff;
     
 }
