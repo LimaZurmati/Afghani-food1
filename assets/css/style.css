@@ -219,10 +219,31 @@ button:hover{
     
 }
 footer{
-    background: #111;
+    background: #fff;
     height:auto;
     width:100vw;
     padding-top: 40px;
-    color:#fff;
+    color:black;
+
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    text-align:center;
+}
+.socials{
+    list-style:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+
+
+
+}
+.socials li{
+    margin: 0 10px;
     
 }
