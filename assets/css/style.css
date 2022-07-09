@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.nav{
+    width: 700px;
+    height: 75px;
+    background-color: #505d61;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    z-index: 1;
+    
+}
