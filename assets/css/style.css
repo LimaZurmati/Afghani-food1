@@ -219,11 +219,11 @@ button:hover{
     
 }
 footer{
-    background: #fff;
+    background: #272727;
     height:auto;
     width:100vw;
     padding-top: 40px;
-    color:black;
+    color:#fff;
 
 }
 .footer-content{
@@ -245,5 +245,17 @@ footer{
 }
 .socials li{
     margin: 0 10px;
-    
+
+}
+.socials a{
+    text-decoration: none;
+    color:#fff;
+
+}
+.socials a i{
+    font-size: 1.1rem;
+
+}
+.socials a:hover i{
+    color:aqua;
 }
