@@ -59,3 +59,26 @@ nav ul li  .active{
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* about*/
+.about{
+    width: 100%;
+    padding: 78px 0px;
+    background-color: #191919;
+}
+.about img{
+    height: auto;
+    width: 420px;
+
+
+}
+.about-text{
+    width: 550px;
+}  
+.main{
+width: 1130px;
+max-width: 95%;
+margin: 0 auto;
+display: felx;
+align-items: center;
+justify-content: space-around;
+}
