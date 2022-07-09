@@ -203,4 +203,18 @@ button:hover{
 }
 /* footer */
 
+.inner-footer{
+    margin:0;
+    padding: 0;
+    background-color: #272727;
 
+}
+.social-links{
+    display:flex;
+
+}
+.social-links ul{
+    padding: 10px;
+    display:flex;
+    
+}
