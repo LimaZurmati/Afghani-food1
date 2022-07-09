@@ -194,3 +194,8 @@ button:hover{
 
 
 }
+.contact-form form .btn:hover{
+    border:2px solid #f9004d;
+    background-color: transparent;
+    transform: scale(1.1);
+}
