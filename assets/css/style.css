@@ -26,7 +26,7 @@ nav{
         float:left;
         margin-left: 30px;
         margin-bottom:20px;
-        line-height:25px;s
+        line-height:25px;
 
     }
 }
@@ -79,7 +79,24 @@ nav ul li  .active{
     color:black;
   
   }
+
 /* about*/
+@media screen and(max-width: 800px) {
+    .about{
+        width: 100%;
+        float:left;
+
+    }
+    .about .text img{
+        margin-bottom: 35px;
+        float: left;
+
+    }
+    .text h1{
+        font-size: 60px;
+        margin-bottom: 25px;
+    }
+}
 .about {
     width: 100%;
     padding: 78px 0px;
