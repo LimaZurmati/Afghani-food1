@@ -19,6 +19,17 @@ nav{
 
 
 }
+/* media quriies*/
+@media screen and( max-width:950px){
+    #menu {
+        clear:left;
+        float:left;
+        margin-left: 30px;
+        margin-bottom:20px;
+        line-height:25px;s
+
+    }
+}
 nav .logo{
     font-size: 30px;
     font-weight: bold;
@@ -258,4 +269,16 @@ footer{
 }
 .socials a:hover i{
     color:aqua;
+}
+.footer-bottom{
+    background: #272727;
+    width: 100vw;
+    padding: 20px 0;
+    text-align:center;
+
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
 }
