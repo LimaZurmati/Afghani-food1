@@ -19,17 +19,6 @@ nav{
 
 
 }
-/* media quriies*/
-@media screen and( max-width:950px){
-    #menu {
-        clear:left;
-        float:left;
-        margin-left: 30px;
-        margin-bottom:20px;
-        line-height:25px;
-
-    }
-}
 nav .logo{
     font-size: 30px;
     font-weight: bold;
@@ -79,24 +68,7 @@ nav ul li  .active{
     color:black;
   
   }
-
 /* about*/
-@media screen and(max-width: 800px) {
-    .about{
-        width: 100%;
-        float:left;
-
-    }
-    .about .text img{
-        margin-bottom: 35px;
-        float: left;
-
-    }
-    .text h1{
-        font-size: 60px;
-        margin-bottom: 25px;
-    }
-}
 .about {
     width: 100%;
     padding: 78px 0px;
@@ -144,28 +116,7 @@ color: red;
         margin-bottom:45px;
     }
     /* about-button*/
-button{
-    background: #f9004d;
-    color:#fff;
-    text-decoration: none;
-    border: 2px solid trnsparnt;
-    font-weight: blod;
-    padding: 13px 30px;
-    transition:.45;
-    border-radius: 30px;
-    transition: .4s;
 
-
-
-
-}
-button:hover{
-    background: trnsparnt;
-    border: 2px sloid #f90ddd;
-    cursor: pointer;
-
-
-}
 /* setion-contaact-us*/
 #contact{
     background-color: #101010;
@@ -190,7 +141,7 @@ button:hover{
     margin-bottom: 3.8rem;
 }
 .contact-form form{
-    position: center;
+    position:relative
 
 }
 .contact-form form input, form textarea {
